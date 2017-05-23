@@ -1,36 +1,32 @@
-//
-//  libyuv.h
-//  libyuv
-//
-//  Created by caojianhua on 15/9/20.
-//  Copyright © 2015年 libyuv. All rights reserved.
-//
+/*
+ *  Copyright 2011 The LibYuv Project Authors. All rights reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree. An additional intellectual property rights grant can be found
+ *  in the file PATENTS. All contributing project authors may
+ *  be found in the AUTHORS file in the root of the source tree.
+ */
 
-#import <UIKit/UIKit.h>
-#import "basic_types.h"
-#import "compare.h"
-#import "convert.h"
-#import "convert_argb.h"
-#import "convert_from.h"
-#import "convert_from_argb.h"
-#import "cpu_id.h"
-#import "mjpeg_decoder.h"
-#import "planar_functions.h"
-#import "rotate.h"
-#import "rotate_argb.h"
-#import "row.h"
-#import "scale.h"
-#import "scale_argb.h"
-#import "scale_row.h"
-#import "version.h"
-#import "video_common.h"
+#ifndef INCLUDE_LIBYUV_H_
+#define INCLUDE_LIBYUV_H_
 
-//! Project version number for libyuv.
-FOUNDATION_EXPORT double libyuvVersionNumber;
+#include "basic_types.h"
+#include "compare.h"
+#include "convert.h"
+#include "convert_argb.h"
+#include "convert_from.h"
+#include "convert_from_argb.h"
+#include "cpu_id.h"
+#include "mjpeg_decoder.h"
+#include "planar_functions.h"
+#include "rotate.h"
+#include "rotate_argb.h"
+#include "row.h"
+#include "scale.h"
+#include "scale_argb.h"
+#include "scale_row.h"
+#include "version.h"
+#include "video_common.h"
 
-//! Project version string for libyuv.
-FOUNDATION_EXPORT const unsigned char libyuvVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <PublicHeader.h>
-
-
+#endif  // INCLUDE_LIBYUV_H_
