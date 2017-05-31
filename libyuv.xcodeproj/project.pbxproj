@@ -490,7 +490,6 @@
 				TargetAttributes = {
 					518F39201BAEB500004A9A2B = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 7P55N2ZU6U;
 					};
 					518F39AC1BAEB65E004A9A2B = {
 						CreatedOnToolsVersion = 7.0;
@@ -768,6 +767,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -785,6 +785,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
