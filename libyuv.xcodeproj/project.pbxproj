@@ -15,7 +15,7 @@
 		04CF44B41ED4D04B005E89A8 /* convert_from.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449F1ED4D04B005E89A8 /* convert_from.h */; };
 		04CF44B51ED4D04B005E89A8 /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A01ED4D04B005E89A8 /* convert.h */; };
 		04CF44B61ED4D04B005E89A8 /* cpu_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A11ED4D04B005E89A8 /* cpu_id.h */; };
-		04CF44B71ED4D04B005E89A8 /* libyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A21ED4D04B005E89A8 /* libyuv.h */; };
+		04CF44B71ED4D04B005E89A8 /* libyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A21ED4D04B005E89A8 /* libyuv.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04CF44B81ED4D04B005E89A8 /* macros_msa.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A31ED4D04B005E89A8 /* macros_msa.h */; };
 		04CF44B91ED4D04B005E89A8 /* mjpeg_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A41ED4D04B005E89A8 /* mjpeg_decoder.h */; };
 		04CF44BA1ED4D04B005E89A8 /* planar_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A51ED4D04B005E89A8 /* planar_functions.h */; };
