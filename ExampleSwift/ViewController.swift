@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
 
-    let src_argb = UnsafePointer<uint8>()
-    let dst_argb = UnsafeMutablePointer<uint8>.alloc(1024)
+    let src_argb = UnsafeMutablePointer<uint8>.allocate(capacity: 1024)
+    let dst_argb = UnsafeMutablePointer<uint8>.allocate(capacity: 1024)
 
     ARGBCopy(src_argb, 0, dst_argb, 0, 0, 0)
   }

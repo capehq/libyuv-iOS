@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04CF44AF1ED4D04B005E89A8 /* basic_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449A1ED4D04B005E89A8 /* basic_types.h */; };
-		04CF44B01ED4D04B005E89A8 /* compare_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449B1ED4D04B005E89A8 /* compare_row.h */; };
-		04CF44B11ED4D04B005E89A8 /* compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449C1ED4D04B005E89A8 /* compare.h */; };
-		04CF44B21ED4D04B005E89A8 /* convert_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449D1ED4D04B005E89A8 /* convert_argb.h */; };
-		04CF44B31ED4D04B005E89A8 /* convert_from_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449E1ED4D04B005E89A8 /* convert_from_argb.h */; };
-		04CF44B41ED4D04B005E89A8 /* convert_from.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449F1ED4D04B005E89A8 /* convert_from.h */; };
-		04CF44B51ED4D04B005E89A8 /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A01ED4D04B005E89A8 /* convert.h */; };
-		04CF44B61ED4D04B005E89A8 /* cpu_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A11ED4D04B005E89A8 /* cpu_id.h */; };
+		04CF44AF1ED4D04B005E89A8 /* basic_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449A1ED4D04B005E89A8 /* basic_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B01ED4D04B005E89A8 /* compare_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449B1ED4D04B005E89A8 /* compare_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B11ED4D04B005E89A8 /* compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449C1ED4D04B005E89A8 /* compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B21ED4D04B005E89A8 /* convert_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449D1ED4D04B005E89A8 /* convert_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B31ED4D04B005E89A8 /* convert_from_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449E1ED4D04B005E89A8 /* convert_from_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B41ED4D04B005E89A8 /* convert_from.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF449F1ED4D04B005E89A8 /* convert_from.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B51ED4D04B005E89A8 /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A01ED4D04B005E89A8 /* convert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B61ED4D04B005E89A8 /* cpu_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A11ED4D04B005E89A8 /* cpu_id.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04CF44B71ED4D04B005E89A8 /* libyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A21ED4D04B005E89A8 /* libyuv.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04CF44B81ED4D04B005E89A8 /* macros_msa.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A31ED4D04B005E89A8 /* macros_msa.h */; };
-		04CF44B91ED4D04B005E89A8 /* mjpeg_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A41ED4D04B005E89A8 /* mjpeg_decoder.h */; };
-		04CF44BA1ED4D04B005E89A8 /* planar_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A51ED4D04B005E89A8 /* planar_functions.h */; };
-		04CF44BB1ED4D04B005E89A8 /* rotate_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A61ED4D04B005E89A8 /* rotate_argb.h */; };
-		04CF44BC1ED4D04B005E89A8 /* rotate_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A71ED4D04B005E89A8 /* rotate_row.h */; };
-		04CF44BD1ED4D04B005E89A8 /* rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A81ED4D04B005E89A8 /* rotate.h */; };
-		04CF44BE1ED4D04B005E89A8 /* row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A91ED4D04B005E89A8 /* row.h */; };
-		04CF44BF1ED4D04B005E89A8 /* scale_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AA1ED4D04B005E89A8 /* scale_argb.h */; };
-		04CF44C01ED4D04B005E89A8 /* scale_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AB1ED4D04B005E89A8 /* scale_row.h */; };
-		04CF44C11ED4D04B005E89A8 /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AC1ED4D04B005E89A8 /* scale.h */; };
-		04CF44C21ED4D04B005E89A8 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AD1ED4D04B005E89A8 /* version.h */; };
-		04CF44C31ED4D04B005E89A8 /* video_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AE1ED4D04B005E89A8 /* video_common.h */; };
+		04CF44B81ED4D04B005E89A8 /* macros_msa.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A31ED4D04B005E89A8 /* macros_msa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44B91ED4D04B005E89A8 /* mjpeg_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A41ED4D04B005E89A8 /* mjpeg_decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44BA1ED4D04B005E89A8 /* planar_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A51ED4D04B005E89A8 /* planar_functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44BB1ED4D04B005E89A8 /* rotate_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A61ED4D04B005E89A8 /* rotate_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44BC1ED4D04B005E89A8 /* rotate_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A71ED4D04B005E89A8 /* rotate_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44BD1ED4D04B005E89A8 /* rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A81ED4D04B005E89A8 /* rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44BE1ED4D04B005E89A8 /* row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44A91ED4D04B005E89A8 /* row.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44BF1ED4D04B005E89A8 /* scale_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AA1ED4D04B005E89A8 /* scale_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44C01ED4D04B005E89A8 /* scale_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AB1ED4D04B005E89A8 /* scale_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44C11ED4D04B005E89A8 /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AC1ED4D04B005E89A8 /* scale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44C21ED4D04B005E89A8 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AD1ED4D04B005E89A8 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CF44C31ED4D04B005E89A8 /* video_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CF44AE1ED4D04B005E89A8 /* video_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04CF44F21ED4D077005E89A8 /* compare_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44C41ED4D077005E89A8 /* compare_common.cc */; };
 		04CF44F31ED4D077005E89A8 /* compare_gcc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44C51ED4D077005E89A8 /* compare_gcc.cc */; };
 		04CF44F41ED4D077005E89A8 /* compare_neon.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CF44C61ED4D077005E89A8 /* compare_neon.cc */; };
@@ -494,6 +494,7 @@
 					518F39AC1BAEB65E004A9A2B = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 7P55N2ZU6U;
+						LastSwiftMigration = 0830;
 					};
 					518F39CD1BAEB7EA004A9A2B = {
 						CreatedOnToolsVersion = 7.0;
@@ -808,6 +809,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.libyuv.ExampleSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -819,6 +821,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.libyuv.ExampleSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
